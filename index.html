@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Ferreira | Cortes Masculinos, Barba e Plano Mensal</title>
+    <meta name="description" content="Barbearia Ferreira: cortes masculinos, barba, atendimento especializado e plano mensal de R$ 99,90 com cortes ilimitados.">
+    <meta name="keywords" content="barbearia, corte masculino, barba, plano mensal, cortes ilimitados, beleza masculina">
+    
+    <!-- Open Graph (Redes Sociais) -->
+    <meta property="og:title" content="Barbearia Ferreira | Cortes Masculinos e Plano Mensal">
+    <meta property="og:description" content="Cortes modernos, barba impecável e o exclusivo Plano Mensal de cortes ilimitados por R$ 99,90.">
+    <meta property="og:image" content="img/hero.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon (Troque pela sua imagem de favicon se desejar) -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (Ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==========================================
+         HEADER / NAVBAR
+         ========================================== -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <!-- LOGO EDITÁVEL -->
+            <a href="#inicio" class="logo">
+                <i class="fa-solid fa-scissors logo-icon"></i>
+                <span>BARBEARIA FERREIRA</span>
+            </a>
+
+            <!-- NAV MENU -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#plano" class="nav-link gold-link"><i class="fa-solid fa-crown"></i> Plano Mensal</a></li>
+                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                </ul>
+            </nav>
+
+            <!-- BOTÃO NAVBAR -->
+            <div class="nav-right">
+                <!-- TELEFONE EDITÁVEL NO JS/HREF (Formato 55DDDNÚMERO) -->
+                <a href="https://api.whatsapp.com/send?phone=554199638055&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="btn btn-whatsapp header-btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>FALAR NO WHATSAPP</span>
+                </a>
+                
+                <!-- MENU HAMBÚRGUER MOBILE -->
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-subtitle fade-in">EXCELÊNCIA & TRADIÇÃO</span>
+            <h1 class="hero-title fade-in">SEU ESTILO COMEÇA AQUI.</h1>
+            <p class="hero-description fade-in">Cortes modernos, barba impecável e uma experiência feita para você.</p>
+            <div class="hero-buttons fade-in">
+                <a href="#servicos" class="btn btn-primary">CONHEÇA NOSSOS SERVIÇOS</a>
+                <a href="https://api.whatsapp.com/send?phone=554199638055&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i> FALAR NO WHATSAPP
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         SOBRE A BARBEARIA
+         ========================================== -->
+    <section class="sobre section-padding" id="sobre">
+        <div class="container sobre-grid">
+            <div class="sobre-img-wrapper fade-in">
+                <!-- Imagem do sobre (substituir em img/sobre.jpg) -->
+                <img src="img/sobre.jpg" alt="Interior da Barbearia Premium" class="sobre-img" onerror="this.src='https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=800&q=80'">
+                <div class="sobre-experience-badge">
+                    <span class="exp-years">+5</span>
+                    <span class="exp-text">Anos de<br>Experiência</span>
+                </div>
+            </div>
+
+            <div class="sobre-content fade-in">
+                <span class="section-tag">NOSSA HISTÓRIA</span>
+                <h2 class="section-title">MAIS QUE UMA BARBEARIA, UMA EXPERIÊNCIA.</h2>
+                <p class="sobre-text">
+                    Na nossa barbearia, cada cliente recebe mais do que um corte. Criamos uma experiência completa, com profissionais qualificados, ambiente confortável e atenção aos detalhes.
+                </p>
+                <p class="sobre-text">
+                    Combinamos as técnicas tradicionais de barbearia com as tendências mais modernas do mercado para entregar exatamente o visual que você deseja.
+                </p>
+
+                <!-- INDICADORES / METRICAS -->
+                <div class="sobre-stats">
+                    <div class="stat-item">
+                        <i class="fa-solid fa-users stat-icon"></i>
+                        <div class="stat-info">
+                            <h3>+500</h3>
+                            <p>Clientes atendidos</p>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fa-solid fa-scissors stat-icon"></i>
+                        <div class="stat-info">
+                            <h3>+1 Anos</h3>
+                            <p>De experiência</p>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fa-solid fa-star stat-icon"></i>
+                        <div class="stat-info">
+                            <h3>5 Estrelas</h3>
+                            <p>Avaliação Média</p>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fa-solid fa-user-check stat-icon"></i>
+                        <div class="stat-info">
+                            <h3>100%</h3>
+                            <p>Atendimento VIP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         SERVIÇOS
+         ========================================== -->
+    <section class="servicos section-padding bg-darker" id="servicos">
+        <div class="container">
+            <div class="section-header text-center fade-in">
+                <span class="section-tag">TABELA DE SERVIÇOS</span>
+                <h2 class="section-title">NOSSOS SERVIÇOS</h2>
+                <div class="gold-divider"></div>
+            </div>
+
+            <div class="servicos-grid">
+                <!-- SERVIÇO 1 -->
+                <div class="servico-card fade-in">
+                    <div class="servico-icon">
+                        <i class="fa-solid fa-scissors"></i>
+                    </div>
+                    <h3 class="servico-title">Corte Masculino</h3>
+                    <p class="servico-desc">Corte personalizado de acordo com seu estilo.</p>
+                    <div class="servico-price">R$ 40,00</div>
+                    <a href="https://api.whatsapp.com/send?phone=554199638055&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20Corte%20Masculino." class="btn btn-outline" target="_blank" rel="noopener noreferrer">QUERO AGENDAR</a>
+                </div>
+
+                <!-- SERVIÇO 2 -->
+                <div class="servico-card fade-in">
+                    <div class="servico-icon">
+                        <i class="fa-solid fa-scissors"></i>
+                    </div>
+                    <h3 class="servico-title">Corte + Barba</h3>
+                    <p class="servico-desc">Combo completo para renovar o visual.</p>
+                    <div class="servico-price">R$ 65,00</div>
+                    <a href="https://api.whatsapp.com/send?phone=554199638055&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20Combo%20Corte%20%2B%20Barba." class="btn btn-outline" target="_blank" rel="noopener noreferrer">QUERO AGENDAR</a>
+                </div>
+
+                <!-- SERVIÇO 3 -->
+                <div class="servico-card fade-in">
+                    <div class="servico-icon">
+                        <i class="fa-solid fa-user-ninja"></i>
+                    </div>
+                    <h3 class="servico-title">Barba</h3>
+                    <p class="servico-desc">Modelagem e acabamento profissional.</p>
+                    <div class="servico-price">R$ 40,00</div>
+                    <a href="https://api.whatsapp.com/send?phone=554199638055&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20servi%C3%A7o%20de%20Barba." class="btn btn-outline" target="_blank" rel="noopener noreferrer">QUERO AGENDAR</a>
+                </div>
+
+                <!-- SERVIÇO 4 -->
+                <div class="servico-card fade-in">
+                    <div class="servico-icon">
+                        <i class="fa-solid fa-child"></i>
+                    </div>
+                    <h3 class="servico-title">Corte Infantil</h3>
+                    <p class="servico-desc">Corte especial para crianças com todo carinho.</p>
+                    <div class="servico-price">R$ 35,00</div>
+                    <a href="https://api.whatsapp.com/send?phone=554199638055&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20Corte%20Infantil." class="btn btn-outline" target="_blank" rel="noopener noreferrer">QUERO AGENDAR</a>
+                </div>
+
+                <!-- SERVIÇO 5 -->
+                <div class="servico-card fade-in">
+                    <div class="servico-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3 class="servico-title">Acabamento</h3>
+                    <p class="servico-desc">Acabamento rápido para manter o visual em dia.</p>
+                    <div class="servico-price">R$ 20,00</div>
+                    <a href="https://api.whatsapp.com/send?phone=554199638055&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20Acabamento." class="btn btn-outline" target="_blank" rel="noopener noreferrer">QUERO AGENDAR</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         PLANO MENSAL (DESTAQUE)
+         ========================================== -->
+    <section class="plano section-padding" id="plano">
+        <div class="container">
+            <div class="plano-card-premium fade-in">
+                <div class="plano-badge">🔥 MAIS VENDIDO</div>
+                
+                <div class="plano-header">
+                    <div class="plano-tag-top"><i class="fa-solid fa-crown"></i> EXCLUSIVIDADE</div>
+                    <h2 class="plano-title">PLANO MENSAL CORTE APENAS CABELO ILIMITADO</h2>
+                    <h3 class="plano-highlight">CORTE QUANTAS VEZES QUISER</h3>
+                    
+                    <div class="plano-price-box">
+                        <span class="currency">R$</span>
+                        <span class="price">99,90</span>
+                        <span class="period">/ MÊS</span>
+                    </div>
+
+                    <div class="plano-tag-ilimitado">CORTES ILIMITADOS</div>
+                </div>
+
+                <p class="plano-desc">
+                    Tenha liberdade para manter seu visual sempre em dia. Assine o plano mensal e faça seus cortes quantas vezes quiser durante o período contratado.
+                </p>
+
+                <div class="plano-beneficios">
+                    <ul class="beneficios-list">
+                        <li><i class="fa-solid fa-scissors"></i> <strong>Cortes ilimitados</strong> durante o mês</li>
+                        <li><i class="fa-solid fa-user-check"></i> <strong>Atendimento profissional</strong> garantido</li>
+                        <li><i class="fa-solid fa-fire"></i> <strong>Cortes modernos</strong> e na régua</li>
+                        <li><i class="fa-solid fa-star"></i> <strong>Atendimento diferenciado</strong> VIP</li>
+                        <li><i class="fa-solid fa-calendar-days"></i> <strong>Liberdade</strong> para cortar quando precisar</li>
+                        <li><i class="fa-solid fa-sack-dollar"></i> <strong>Melhor custo-benefício</strong> da região</li>
+                    </ul>
+                </div>
+
+                <div class="plano-cta">
+                    <a href="https://api.whatsapp.com/send?phone=554199638055&text=Ol%C3%A1!%20Tenho%20interesse%20no%20Plano%20Mensal%20de%20R%24%2099%2C90%20para%20cortes%20ilimitados.%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es." class="btn btn-plano-lg" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i> QUERO ASSINAR O PLANO
+                    </a>
+                </div>
+
+                <div class="plano-regras">
+                    <h4>Regras do plano:</h4>
+                    <p>Plano individual, válido por 30 dias. O benefício de cortes ilimitados está sujeito às condições de utilização definidas pela barbearia. Consulte as regras diretamente com a equipe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     
+
+    <!-- ==========================================
+         DIFERENCIAIS
+         ========================================== -->
+    <section class="diferenciais section-padding bg-darker">
+        <div class="container">
+            <div class="section-header text-center fade-in">
+                <span class="section-tag">POR QUE NOS ESCOLHER</span>
+                <h2 class="section-title">NOSSOS DIFERENCIAIS</h2>
+                <div class="gold-divider"></div>
+            </div>
+
+            <div class="diferenciais-grid">
+                <div class="dif-card fade-in">
+                    <i class="fa-solid fa-user-tie dif-icon"></i>
+                    <h3>Profissionais Especializados</h3>
+                    <p>Equipe preparada para entregar o melhor resultado no seu estilo.</p>
+                </div>
+
+                <div class="dif-card fade-in">
+                    <i class="fa-solid fa-couch dif-icon"></i>
+                    <h3>Ambiente Confortável</h3>
+                    <p>Um espaço climatizado e acolhedor pensado para você relaxar.</p>
+                </div>
+
+                <div class="dif-card fade-in">
+                    <i class="fa-solid fa-chart-line dif-icon"></i>
+                    <h3>Cortes Modernos</h3>
+                    <p>Estilos atuais e aplicação de técnicas inovadoras para todos os perfis.</p>
+                </div>
+
+                <div class="dif-card fade-in">
+                    <i class="fa-solid fa-gem dif-icon"></i>
+                    <h3>Atendimento Diferenciado</h3>
+                    <p>Você é tratado como cliente VIP do início ao fim do atendimento.</p>
+                </div>
+
+                <div class="dif-card fade-in">
+                    <i class="fa-solid fa-pump-soap dif-icon"></i>
+                    <h3>Produtos de Qualidade</h3>
+                    <p>Utilizamos apenas produtos de alta linha selecionados a dedo.</p>
+                </div>
+
+                <div class="dif-card fade-in">
+                    <i class="fa-solid fa-award dif-icon"></i>
+                    <h3>Experiência Premium</h3>
+                    <p>Qualidade, agilidade e cuidado em cada detalhe do serviço.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         GALERIA DE FOTOS
+         ========================================== -->
+    <section class="galeria section-padding" id="galeria">
+        <div class="container">
+            <div class="section-header text-center fade-in">
+                <span class="section-tag">PORTFÓLIO</span>
+                <h2 class="section-title">NOSSA GALERIA</h2>
+                <div class="gold-divider"></div>
+            </div>
+
+            <div class="galeria-grid">
+                <!-- Foto 1 -->
+                <div class="galeria-item fade-in">
+                    <img src="img/corte-01.jpg" alt="Corte Masculino Fade" class="galeria-img" onerror="this.src='https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=600&q=80'">
+                    <div class="galeria-overlay">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        <span>Corte Degradê</span>
+                    </div>
+                </div>
+
+                <!-- Foto 2 -->
+                <div class="galeria-item fade-in">
+                    <img src="img/corte-02.jpg" alt="Modelagem de Barba" class="galeria-img" onerror="this.src='https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80'">
+                    <div class="galeria-overlay">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        <span>Barba Alinhada</span>
+                    </div>
+                </div>
+
+                <!-- Foto 3 -->
+                <div class="galeria-item fade-in">
+                    <img src="img/corte-03.jpg" alt="Ambiente da Barbearia" class="galeria-img" onerror="this.src='https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=80'">
+                    <div class="galeria-overlay">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        <span>Nosso Espaço</span>
+                    </div>
+                </div>
+
+                <!-- Foto 4 -->
+                <div class="galeria-item fade-in">
+                    <img src="img/corte-04.jpg" alt="Corte Moderno com Tesoura" class="galeria-img" onerror="this.src='https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=600&q=80'">
+                    <div class="galeria-overlay">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        <span>Estilo & Navalha</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL GALERIA -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage" alt="Imagem ampliada">
+        <div id="modalCaption"></div>
+    </div>
+
+    <!-- ==========================================
+         DEPOIMENTOS
+         ========================================== -->
+    <section class="depoimentos section-padding bg-darker" id="depoimentos">
+        <div class="container">
+            <div class="section-header text-center fade-in">
+                <span class="section-tag">O QUE DIZEM NOSSOS CLIENTES</span>
+                <h2 class="section-title">DEPOIMENTOS</h2>
+                <div class="gold-divider"></div>
+            </div>
+
+            <div class="depoimentos-grid">
+                <!-- Depoimento 1 -->
+                <div class="depoimento-card fade-in">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="depoimento-texto">"Excelente atendimento! O corte ficou exatamente como eu queria. Virei assinante do Plano Mensal e vale super a pena."</p>
+                    <div class="depoimento-autor">
+                        <div class="avatar-circle">JS</div>
+                        <div class="autor-info">
+                            <h4>João Silva</h4>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div class="depoimento-card fade-in">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="depoimento-texto">"Ambiente muito bom e profissionais excelentes. Recomendo de olhos fechados pra quem valoriza um corte bem feito!"</p>
+                    <div class="depoimento-autor">
+                        <div class="avatar-circle">CH</div>
+                        <div class="autor-info">
+                            <h4>Carlos Henrique</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimento 3 -->
+                <div class="depoimento-card fade-in">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="depoimento-texto">"Já virei cliente. O atendimento e o resultado são excelentes. Além disso, o cafézinho de cortesia é fantástico."</p>
+                    <div class="depoimento-autor">
+                        <div class="avatar-circle">LS</div>
+                        <div class="autor-info">
+                            <h4>Lucas Santos</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         INSTAGRAM
+         ========================================== -->
+    <section class="instagram section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-in">
+                <span class="section-tag">REDES SOCIAIS</span>
+                <h2 class="section-title">ACOMPANHE NOSSO TRABALHO</h2>
+                <div class="gold-divider"></div>
+            </div>
+
+            <div class="insta-grid">
+                <div class="insta-post fade-in">
+                    <img src="img/corte-01.jpg" alt="Instagram Post" onerror="this.src='https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=500&q=80'">
+                    <a href="https://www.instagram.com/barbeariafeerreira/" target="_blank" rel="noopener noreferrer" class="insta-overlay">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="insta-post fade-in">
+                    <img src="img/corte-02.jpg" alt="Instagram Post" onerror="this.src='https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=500&q=80'">
+                    <a href="https://www.instagram.com/barbeariafeerreira/" target="_blank" rel="noopener noreferrer" class="insta-overlay">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="insta-post fade-in">
+                    <img src="img/corte-03.jpg" alt="Instagram Post" onerror="this.src='https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=500&q=80'">
+                    <a href="https://www.instagram.com/barbeariafeerreira/" target="_blank" rel="noopener noreferrer" class="insta-overlay">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="insta-post fade-in">
+                    <img src="img/corte-04.jpg" alt="Instagram Post" onerror="this.src='https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=500&q=80'">
+                    <a href="https://www.instagram.com/barbeariafeerreira/" target="_blank" rel="noopener noreferrer" class="insta-overlay">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="text-center mt-4 fade-in">
+                <!-- NOME DO INSTAGRAM EDITÁVEL NO LINK -->
+                <a href="https://www.instagram.com/barbeariafeerreira/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <i class="fa-brands fa-instagram"></i> SEGUIR NO INSTAGRAM
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         LOCALIZAÇÃO E HORÁRIOS
+         ========================================== -->
+    <section class="localizacao section-padding bg-darker">
+        <div class="container">
+            <div class="section-header text-center fade-in">
+                <span class="section-tag">ONDE ESTAMOS</span>
+                <h2 class="section-title">NOSSA LOCALIZAÇÃO</h2>
+                <div class="gold-divider"></div>
+            </div>
+
+            <div class="localizacao-grid">
+                <div class="info-box fade-in">
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot info-icon"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                        
+                            <p>R. Profa. Ernestina de Macedo Souza Cortes, 2387 - Parque da Fonte, São José dos Pinhais - PR, 83050-150</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone info-icon"></i>
+                        <div>
+                            <h4>Telefone / WhatsApp</h4>
+                            
+                            <p>(41) 9963-8055</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-clock info-icon"></i>
+                        <div>
+                            <h4>Horário de Funcionamento</h4>
+                            <!-- HORÁRIOS EDITÁVEIS -->
+                            <p><strong>Segunda a Sexta:</strong> 09:00 às 20:00</p>
+                            <p><strong>Sábado:</strong> 09:00 às 18:00</p>
+                            <p><strong>Domingo:</strong> Fechado</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mapa-box fade-in">
+                    <!-- GOOGLE MAPS EMBED - EDITAR URL DO IFRAME DE ACORDO COM O ENDEREÇO DESEJADO -->
+                   <iframe 
+  src="https://www.google.com/maps/embed?pb=!4v1786542255624!6m8!1m7!1sm_q3HKnNTBdzbXgSBjhYJg!2m2!1d-25.50695122201731!2d-49.17405478878264!3f50.49834951825536!4f-6.313038383562883!5f0.7820865974627469" 
+  width="100%" 
+  height="100%" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- ==========================================
+         CTA - CHAMADA FINAL
+         ========================================== -->
+    <section class="cta-final section-padding text-center">
+        <div class="container fade-in">
+            <h2 class="cta-title">PRONTO PARA RENOVAR SEU VISUAL?</h2>
+            <p class="cta-text">Escolha seu serviço ou conheça nosso Plano Mensal e venha viver uma experiência diferente.</p>
+            <div class="cta-buttons">
+                <a href="https://api.whatsapp.com/send?phone=554199638055&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i> FALAR NO WHATSAPP
+                </a>
+                <a href="#plano" class="btn btn-primary">CONHECER O PLANO MENSAL</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER / RODAPÉ
+         ========================================== -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#inicio" class="logo footer-logo">
+                    <i class="fa-solid fa-scissors logo-icon"></i>
+                    <span>BARBEARIA<span class="gold-text">FERREIRA</span></span>
+                </a>
+                <p class="footer-desc">
+                    Especialistas em cortes masculinos e barba. A sua barbearia de confiança com atendimento exclusivo e ambiente premium.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/barbeariafeerreira/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=554199638055" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>LINKS RÁPIDOS</h4>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Serviços & Preços</a></li>
+                    <li><a href="#plano">Plano Mensal (R$ 99,90)</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>CONTATO</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Rua Professora Ernestina de Macedo Souza Cortes, 2387</p>
+                <p><i class="fa-brands fa-whatsapp"></i> (41) 9963-8055</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>HORÁRIOS</h4>
+                <p>Segunda a Sexta: 09:00h - 20:00h</p>
+                <p>Sábado: 09:00h - 18:00h</p>
+                <p>Domingo: Fechado</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 projeto realizado por <a href="https://pjf-tech.vercel.app/index.html" target="_blank" rel="noopener noreferrer">pjf.tech</a>. Todos os direitos reservados.</p>
+    </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+         WHATSAPP FLUTUANTE
+         ========================================== -->
+    <a href="https://api.whatsapp.com/send?phone=554199638055&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20os%20servi%C3%A7os%20e%20valores%20da%20barbearia." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contato via WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
