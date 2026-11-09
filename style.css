@@ -477,6 +477,24 @@ img {
     margin-bottom: 20px;
 }
 
+.plano-dupla {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    align-items: stretch;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.plano-dupla .plano {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.plano-dupla .container {
+    width: 100%;
+}
+
 /* ==========================================================================
    PLANO MENSAL (DESTACADO)
    ========================================================================== */
@@ -490,6 +508,7 @@ img {
     margin: 0 auto;
     box-shadow: var(--gold-glow);
     text-align: center;
+    height: 100%;
 }
 
 .plano-badge {
@@ -1130,6 +1149,10 @@ img {
     }
 
     .beneficios-list {
+        grid-template-columns: 1fr;
+    }
+
+    .plano-dupla {
         grid-template-columns: 1fr;
     }
 }
